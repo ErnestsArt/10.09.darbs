@@ -1,5 +1,7 @@
 function loadJoke() {
   cardEl.classList.add('hidden');
+  // var card = document.getElementById("card");
+  var btn = document.getElementById("btn");
 
   try {
     const response = fetch('https://official-joke-api.appspot.com/random_joke');
